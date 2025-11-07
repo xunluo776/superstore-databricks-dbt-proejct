@@ -1,0 +1,15 @@
+version: 2
+
+models:
+  - name: superstore
+    description: "Cleaned, deduplicated Silver-layer Superstore data"
+    columns:
+      - name: row_id
+        tests:
+          - unique
+          - not_null
+      - name: date_added
+        tests:
+          - not_null
+      - name: Sales
+        description: "Total sales for the transaction"
