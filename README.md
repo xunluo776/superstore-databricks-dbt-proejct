@@ -3,7 +3,7 @@ _A Modern Lakehouse Project using Databricks, dbt & the Superstore Dataset_
 
 ## 🚀 Project Overview  
 This project demonstrates a full end-to-end **Data Engineering pipeline** built on the modern **Lakehouse architecture**.  
-Using the popular Superstore retail dataset, it showcases ingestion, transformation, and analytics — all orchestrated on Databricks with dbt for modular SQL modeling.  
+Using the kaggle Superstore retail dataset, it showcases ingestion, transformation, and analytics — all orchestrated on Databricks with dbt for modular SQL modeling.  
 
 **Key outcomes include:**  
 - Month-over-month sales and profit growth tracking  
@@ -13,13 +13,13 @@ Using the popular Superstore retail dataset, it showcases ingestion, transformat
 
 ---
 
-## 🧩 Technologies & Architecture  
+##  Technologies 
 
 | Layer | Tool / Framework | Purpose |
 |-------|------------------|----------|
-| **Ingestion** | Databricks Jobs + Auto Loader | Load raw Superstore data into Bronze tables |
-| **Transformation** | dbt Core (`dbt-databricks` adapter) | Stage and model data into Silver/Gold layers |
-| **Storage** | Delta Lake on Databricks | Reliable, ACID-compliant data storage |
+| **Ingestion** | Databricks Jobs + Auto Loader + spark | Load raw Superstore data into Bronze tables |
+| **Transformation** | dbt Cloud (`dbt-databricks` adapter) | Stage and model data into Silver/Gold layers |
+| **Storage** | Delta Lake on Databricks | Reliable data storage |
 | **Analytics** | Databricks SQL Views & Visualizations | Derive business insights and reporting tables |
 | **Version Control** | GitHub | Manage code, models, and documentation |
 
@@ -27,22 +27,7 @@ This project follows the **Bronze → Silver → Gold** architecture pattern for
 
 ---
 
-## 🧱 Project Structure  
-
-```
-/
-├── databricks/          # ETL notebooks and ingestion jobs
-├── dbt/                 # dbt project folder
-│   ├── models/          # staging, intermediate, and gold models
-│   ├── seeds/           # static seed datasets
-│   ├── tests/           # dbt tests for data quality
-│   └── dbt_project.yml
-└── README.md
-```
-
----
-
-## 🔍 Key Analytical Use Cases  
+##  Key Analytical Use Cases  
 
 1. **Monthly Growth** – Analyze sales and profit trends across time.  
 2. **Regional Contribution** – Identify the top-performing region each month.  
@@ -51,7 +36,7 @@ This project follows the **Bronze → Silver → Gold** architecture pattern for
 
 ---
 
-## 🎯 About this Project
+##  About this Project
 
 - Implements a **modern DE stack** used in real-world industry workflows (Databricks + dbt + Delta).  
 - Follows clean **Medallion architecture** principles for modularity and scalability.  
@@ -61,7 +46,7 @@ This project follows the **Bronze → Silver → Gold** architecture pattern for
 
 ---
 
-## 🛠️ How to Run the Project  
+##  How to Run the Project  
 
 1. **Clone the repository**  
    ```bash
@@ -96,7 +81,7 @@ This project follows the **Bronze → Silver → Gold** architecture pattern for
 
 ---
 
-## 📈 Example Insights  
+##  Example Insights  
 
 - The **Consumer segment** contributed nearly half of total profit.  
 - The **West region** frequently ranked as the top monthly profit driver.  
@@ -104,14 +89,14 @@ This project follows the **Bronze → Silver → Gold** architecture pattern for
 
 ---
 
-## 🧠 Future Enhancements  
+##  Future Enhancements  
   
 - Integrate **GitHub Actions** for automated CI/CD of dbt models.  
 - Expand **data quality monitoring** and **documentation** via dbt docs.  
 - Build a polished **BI dashboard** (Power BI / Tableau / Databricks SQL) to showcase results.  
 
 ---
-## 📈 Reference
+##  Reference
 - datasets: https://www.kaggle.com/datasets/vivek468/superstore-dataset-final/data?select=Sample+-+Superstore.csv
 ---
 
