@@ -13,7 +13,6 @@ They represent the transition from **Data Engineering (ETL + modeling)** to **Da
 2. Which region contributes the most to profit growth?
 3. What are the top 10 customers by lifetime sales and profit?
 4. How does sales performance differ by segment (Consumer, Corporate, Home Office)?
-5. What is the average order value trend over time?
 
 ---
 
