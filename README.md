@@ -111,6 +111,9 @@ This project follows the **Bronze → Silver → Gold** architecture pattern for
 - Build a polished **BI dashboard** (Power BI / Tableau / Databricks SQL) to showcase results.  
 
 ---
+## 📈 Reference
+- datasets: https://www.kaggle.com/datasets/vivek468/superstore-dataset-final/data?select=Sample+-+Superstore.csv
+---
 
 ## 👤 About Me  
 
