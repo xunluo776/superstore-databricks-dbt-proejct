@@ -1,0 +1,7 @@
+sources:
+  - name: bronze
+    database: superstore_databricks_dbt
+    schema: bronze
+    tables:
+      - name: superstore
+

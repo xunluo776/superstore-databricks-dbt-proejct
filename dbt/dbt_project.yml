@@ -1,0 +1,40 @@
+# --------------------------------------------
+# Project Configuration
+# --------------------------------------------
+name: 'my_new_project'
+version: '1.0.0'
+config-version: 2
+
+# Which profile to use (this connects to Databricks)
+profile: 'default'
+
+# Folder paths
+model-paths: ["models"]
+analysis-paths: ["analyses"]
+test-paths: ["tests"]
+seed-paths: ["seeds"]
+macro-paths: ["macros"]
+snapshot-paths: ["snapshots"]
+
+target-path: "target"
+clean-targets:
+  - "target"
+  - "dbt_packages"
+
+# --------------------------------------------
+# Model Configuration
+# --------------------------------------------
+models:
+  my_new_project:
+    # Silver Layer
+    silver:
+      +schema: silver
+      +materialized: incremental
+    # Gold Layer
+    gold:
+      +schema: gold
+      +materialized: table
+
+# Optional: removes the “BehaviorChangeEvent” warning
+flags:
+  use_materialization_v2: true

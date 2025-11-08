@@ -1,0 +1,18 @@
+version: 2
+
+models:
+  - name: dim_customer
+    description: "Current active customer dimension table"
+    columns:
+      - name: Customer_ID
+        tests:
+          - unique
+          - not_null
+
+  - name: dim_product
+    description: "Current active product dimension table"
+    columns:
+      - name: Product_ID
+        tests:
+          - unique
+          - not_null
