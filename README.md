@@ -112,5 +112,5 @@ If you’re a recruiter or hiring manager, this project reflects my ability to:
 
 ---
 
-⭐ **Thank you for checking out this project!**  
+ **Thank you for checking out this project!**  
 Feel free to fork the repo, review the dbt models, or connect for collaboration.
