@@ -1,7 +1,7 @@
 # Superstore Sales & Profit Analysis  
 _A Modern Lakehouse Project using Databricks, dbt & the Superstore Dataset_  
 
-## 🚀 Project Overview  
+##  Project Overview  
 This project demonstrates a full end-to-end **Data Engineering pipeline** built on the modern **Lakehouse architecture**.  
 Using the kaggle Superstore retail dataset, it showcases ingestion, transformation, and analytics — all orchestrated on Databricks with dbt for modular SQL modeling.  
 
@@ -100,7 +100,7 @@ This project follows the **Bronze → Silver → Gold** architecture pattern for
 - datasets: https://www.kaggle.com/datasets/vivek468/superstore-dataset-final/data?select=Sample+-+Superstore.csv
 ---
 
-## 👤 About Me  
+##  About Me  
 
 I’m a **cs graduate student** passionate about building scalable, cloud-based pipelines.  
 I specialize in **Databricks**, **dbt**, **SQL**, and **Azure Data Lake**, turning raw datasets into curated insights for decision-making.  
